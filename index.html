@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="animate__animated animate__fadeInDown">
+      <img class="logo"src="assets/avatar.jpg" alt="">
+      <h1>
+        <img class="wave-gif"src="assets/cute-wave-emoji-hand-59s88kk0zj3xho40.webp" alt="wave-emoji"> Olá, me chamo Davi
+      </h1>
+      <a href="https://www.instagram.com/davimarcio_ofc/" target="_blank" 
+        ><box-icon class="social-link" name="instagram" type="logo" color="#ffffff" size="md"></box-icon>
+      </a>
+      <a href="" target="_blank">
+        <box-icon class="social-link" name="linkedin-square" type="logo" color="#ffffff" size="md"></box-icon>
+      </a>
+      <a href="https://github.com/DaviMarcio" target="_blank">
+        <box-icon class="social-link" name="github" type="logo" color="#ffffff" size="md"></box-icon>
+      </a>
+    </header>
+
+    <div id="hero" class="animate__animated animate__fadeInUp">
+      <img class="avatar" src="assets/avatar.jpg" alt="">
+      <h1>Transformando <span>Ideias</span> em Realidade</h1>
+      <button>Saiba Mais ></button>
+    </div>
+
+    <main data-aos="zoom-in" data-aos-duration="800">
+      <div class="video-card">
+        <box-icon type='solid' name='video' color="#ffffff" size="md"></box-icon>
+        <h4>Tenha videos incríveis</h4>
+        <p>
+          Transforme suas ideias em vídeos impactantes. 
+          Oferecemos serviços de edição profissional para vídeos de todos os tipos, 
+          desde conteúdos para redes sociais até produções corporativas e vídeos publicitários. 
+        </p>
+      </div>
+      <div class="web-card">
+        <box-icon name='globe' color="#ffffff" size="md"></box-icon>
+        <h4>Seu site, Sua identidade Online</h4>
+        <p>
+          Crie uma presença online com nossos serviços de criação de sites, adaptados às suas necessidades e ao seu público-alvo. Sites institucionais e e-commerces, com navegação intuitiva e otimização para dispositivos móveis.
+        </p>
+      </div>
+      <div class="money-card">
+        <box-icon name='dollar' color='#ffffff' size="md"></box-icon>
+        <h4>Excelência que Cabe no Seu Orçamento</h4>
+        <p>
+          Serviços a preços acessíveis: pacotes personalizados que atendem suas necessidades, garantindo o melhor custo-benefício sem comprometer a qualidade.
+        </p>
+      </div>
+    </main>
+
+    <div data-aos="fade-up" data-aos-duration="1000" class="call-to-action">
+      <h1>Vamos Conversar Sobre seu Novo Projeto</h1>
+      <button id="form-btn">
+        Contrate <box-icon name='send' color="#ffffff" size="xs"></box-icon>
+      </button>
+    </div>
+
+    <footer>
+    </footer>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
